@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: rgba(0, 0, 0, .70);
+    border: 2px #fff solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .70) ;
+    position: relative;
+}
+
+nav > ul li {
+    display: table-cell;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    height: 100%;
+}
+
+nav > ul > li > ul {
+    display: block;
+    display: none;
+    background: rgba(0, 0, 0, .70);
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;  
+}
+
+
+
+nav > ul li a {
+    color: #ffff;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;    
+}
+nav > ul > li > ul > li a:hover {
+    background: #5da5a2;
+}
+
+nav > ul > li > a span {
+    background: #174459;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 
+}
+
+nav > ul > li > a span .icon {
+    display: block;
+    line-height: 60px;
+}
+
+nav > ul > li > a:hover > span {
+    top: 0;
+}
+
+nav ul li a .primero {
+    background: #a50cec;
+}
+
+nav ul li a .segundo {
+    background: #fcce02;
+}
+
+nav ul li a .tercero {
+    background: #2969bd;
+}
+
+nav ul li a .cuarto {
+    background: #ff024e;
+}
+
+nav ul li a .guinto {
+    background: #f19407;
+}
+
+nav ul li a .sexto {
+    background: #eb0518;
+}
+
+.hola {
+    border: 0px solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .70);
+    height: 250px;
+}
+
+button .alert-info{
+    width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;    
+}

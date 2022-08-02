@@ -1,0 +1,27 @@
+.fondo {
+    height: 950px;
+    position: relative;
+    background-image: url(cooflaquindio4.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 10px;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 15vh 60vw 0 0;
+    border-style: solid;
+    border-color: #79736c transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1025px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
